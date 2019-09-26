@@ -1,3 +1,4 @@
 function takeANumber(katzDeliLine, name) {
-  return `Welcome, ${name}. You are number ${lineNumber + 1} in line.`;
+  katzDeliLine.push(name);
+  return `Welcome, ${name}. You are number ${katzDeliLine.indexOf(name)} in line.`;
 }
