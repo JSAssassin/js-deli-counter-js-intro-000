@@ -12,4 +12,5 @@ function nowServing(katzDeliLine) {
   }
 
   katzDeliLine.unshift();
+  return katzDeliLine;
 }
