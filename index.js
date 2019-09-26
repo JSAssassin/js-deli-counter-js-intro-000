@@ -20,8 +20,8 @@ function currentLine(line) {
   }
 
   for(let i = 0; i < line.length; i++) {
-    newArray.push(`${i+1}. ${line[i]}`);
+    newArray.push(` ${i+1}. ${line[i]}`);
   }
 
-  return "The line is currently: " + newArray.join(', ');
+  return "The line is currently: " + newArray;
 }
